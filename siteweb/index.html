@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+        <meta name="description" content="" >
+        <meta name="author" content="" >
+        <title>Florian JEANNE</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon/ping.ico" >
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" >
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" >
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" >
+        <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Florian JEANNE</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Accueil</a></li>
+                <li class="sidebar-nav-item"><a href="#services">Services</a></li>
+                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="sidebar-nav-item"><a href="#formulaire">Pour me contacter</a></li>
+            </ul>
+        </nav>
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Florian JEANNE</h1>
+                <h3 class="mb-5"><em>Etudiant en LPSIG à La Rochelle Université</em></h3>
+                <a class="btn btn-primary btn-xl" href="#services">En savoir plus</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="content-section bg-primary text-white text-center" id="services">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h2 class="mb-5">Services proposés</h2>
+                </div>
+                <div class="row gx-4 gx-lg-3">
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-map"></i></span>
+                        <h4><strong>Carte</strong></h4>
+                        <p class="text-faded mb-0">Réalisation de carte.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-organization"></i></span>
+                        <h4><strong>Serveur</strong></h4>
+                        <p class="text-faded mb-0">Administration de serveur.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-chart"></i></span>
+                        <h4><strong>Traitement</strong></h4>
+                        <p class="text-faded mb-0">
+                            Traitement de vos données
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-home"></i></span>
+                        <h4><strong>Modélisation</strong></h4>
+                        <p class="text-faded mb-0">Modélisation de vos architecture</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h2 class="mb-5">Portfolio</h2>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="vache.html" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Ratio de vaches</div>
+                                    <p class="mb-0">Une carte sur le ratio de vaches par habitant en Normandie.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/Carte_Vache_Normandie_Florian_Jeanne.jpg" alt="Une carte sur le ratio de vaches par habitant en Normandie." >
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="stationnement.html" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Stationnement Vélo Rochefort</div>
+                                    <p class="mb-0">Une carte des demande de stationnement sur la commune de Rochefort</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/poster_stationnement_velo_rochefort.jpg" alt="Une carte des demande de stationnement sur la commune de Rochefort" >
+                        </a>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        <!-- Formulaire-->
+         <section class="content-section" id="formulaire">
+            <div class="container px-4 px-lg-3">
+                    <form id = "form_contact">
+                <div class="mb-3">
+                  <label class="form-label"><i class="fa-solid fa-user"></i>Prénom Nom</label>
+                  <input type="text" class="form-control" placeholder="Entrer votre prénom et votre nom">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label"><i class="fa-regular fa-file"></i>Type de demande</label>
+                  <select class="form-select" name="demande">
+	                <option>Prestation</option>
+	                <option>Demande d'information</option>
+	                <option>Question</option>
+                    <option>Autre</option>
+                </select>
+                </div>
+                
+                <div class="mb-3">
+                  <label class="form-label"><i class="fa-solid fa-bars"></i>Message</label>
+                  <textarea class="form-control" rows="5" placeholder="Taper votre texte"></textarea>
+                </div>
+              </form>
+              <div class="h-captcha" data-sitekey="4defd4c1-1083-4fe7-9a46-01ea399869db"></div>
+              <a href="" class="btn btn-success" target="_blank"> Valider</a>
+            
+            </div>
+            </section>
+                
+        <!-- Map-->
+        <div>
+            <iframe style="width: 100%; height: 300px; border: 0;" allow="geolocation" src="//umap.openstreetmap.fr/fr/map/ma-localisation_1325582?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/ma-localisation_1325582?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"/a></p>
+         </div>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="assets/pdf/CV_Géomatique_Florian_Jeanne.pdf" target="_blank"><i class="icon-doc"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/jeanne-florian/" target="_blank" ><i class="icon-social-linkedin"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="https://github.com/frisette" target="_blank"><i class="icon-social-github"></i></a>
+                    </li>
+                    
+                </ul>
+                <p class="text-muted small mb-0">Copyright &copy; Florian JEANNE 2025</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

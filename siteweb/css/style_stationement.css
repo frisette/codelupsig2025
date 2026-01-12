@@ -1,0 +1,17 @@
+body {
+text-align: justify;
+font-family: Source Sans Pro,sans-serif;
+background-color: #a7f171;
+color : #3289a3 ;
+margin-left: 20px;
+}
+
+h1{
+    color : #2fa9ce ;
+    text-decoration: underline;
+}
+
+.img-fluid {
+  max-width: 40%;
+  height: auto;
+}
